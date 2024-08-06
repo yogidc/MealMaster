@@ -1,0 +1,95 @@
+
+.intro {
+    background: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+.intro .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.intro h1 {
+    font-size: 36px;
+    color:purple;
+}
+.intro p {
+    font-size: 18px;
+    color: #060606;
+    margin-top: 10px;
+}
+.services {
+    background: #fff;
+    padding: 50px 0;
+}
+.services .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.services h2 {
+    text-align: center;
+    font-size: 28px;
+    color:purple;
+    margin-bottom: 30px;
+}
+.service {
+    margin-bottom: 20px;
+}
+.service h3 {
+    font-size: 22px;
+    color: #d3008d;
+}
+.service p {
+    font-size: 16px;
+    color: #333;
+}
+.testimonials {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+.testimonials .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.testimonials h2 {
+    text-align: center;
+    font-size: 28px;
+    color: purple;
+    margin-bottom: 30px;
+}
+.testimonial {
+    margin-bottom: 20px;
+}
+.testimonial p {
+    font-size: 16px;
+    color: #333;
+    font-style: italic;
+}
+.faq {
+    background: #fff;
+    padding: 50px 0;
+}
+.faq .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.faq h2 {
+    text-align: center;
+    font-size: 28px;
+    color: purple;
+    margin-bottom: 30px;
+}
+.faq-item {
+    margin-bottom: 20px;
+}
+.faq-item h3 {
+    font-size: 22px;
+    color: #e138a9;
+}
+.faq-item p {
+    font-size: 16px;
+    color: #333;
+}

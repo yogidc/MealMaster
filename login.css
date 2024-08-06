@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-register {
+    padding: 20px;
+}
+.login-register .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.login-register .register,.login-register .login {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    background: rgba(218, 225, 228, 0.058);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.container h1 ,.login h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e71aa3;
+    text-align: center;
+}
+.container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fbf9f9;
+}
+.register form,.login form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 20px;
+}
+.register input,.register select,.register button,.login input,.login button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.register button,.login button {
+    background: #d3008d;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+ .login .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.login .remember-me input {
+    margin-right: 10px;
+}
+.login .remember-me label {
+    font-size: 14px;
+    color: #e6d4d4;
+}
+.login a {
+    color: #d3008d;
+    text-decoration: none;
+    font-size: 14px;
+}
+.login-btn:hover {
+    padding: 3%;
+}
+@media (min-width: 769px) {
+    .login-register .container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+.login-register .register,.login-register .login {
+        width: 45%;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 768px) {
+    .login-register .container {
+        flex-direction: column;
+    }
+}

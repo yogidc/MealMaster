@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Form Contact Us- MealMaster</title>
+       <link rel="stylesheet" href="contact.css">
+       <link rel="stylesheet" href="style.css">
+</head> 
+<body> 
+    <header style="background: url('images/contact1.webp')no-repeat center center/cover; ;height: 200px;" >
+    <nav class="navbar">
+        <div class="logo">
+            <img src="ylogo.png" >
+            <h1 style=" color: rgb(164, 91, 164);">Meal Master</h1>
+        </div>
+        
+             <ul class="nav-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="chefs.html">chefs</a></li>
+            <li><a href="insight.html">insights</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+ 
+        <div class="hamburger" onclick="toggleNav()">☰</div> 
+    </header>                                                      
+     
+    <main>
+        <section class="form-section">
+    <div class="container">
+        <form action="https://formsubmit.co/8a816a29c786b12b44d2823121b8e5a3" method="POST"  >
+            <h1>Contact Us</h1> 
+            <input type="text" name="Name" placeholder="First Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="text" name="mobile"  placeholder="Mobile" required>
+            <input type="text" name="Address" placeholder="Address" required>
+            <input type="text" name="name of the event" placeholder="Name Of The Event" required>
+            <input type="number" name="peoples" placeholder="for how many peoples" how many peoples" required>
+            <label for="aadhaar-card" name="addhar-photo">Upload Aadhaar Card Photo</label>
+            <input type="file" id="aadhaar-card" name="aadhaar-card" accept="image/*" required>
+            <select name="time slot">
+                <option disabled selected>Select timeSlot</option>
+                <option>10 AM</option>
+                <option>12 PM</option>
+                <option>4 PM</option>
+                <option>7 PM</option>                                                                          
+            </select>
+            <select name="chef-list" required>
+                <option disabled selected>Select chef</option>
+                <option>chef Akshara</option>
+                <option>chef Ramesh </option>
+                <option>chef Karthik</option>
+                <option>chef Arohi</option>
+                <option>chef Smitha</option>
+                <option>chef Abhishek </option>
+                <option>chef Dhanu</option>
+                <option>chef Bhaskar</option>
+                <option>chef Sumathi</option>
+                <option>chef Anu</option>
+            </select>
+            <select name="paymentmethod select" required>
+                <option  disabled selected>Select payment method</option>
+                <option>credit card</option>
+                <option>gpay\phonepay</option>
+                <option>banktransfer</option>
+                <option>cash</option>
+            </select>
+            <select name="preferncedishes" required>
+                    <option disabled selected>select preferncedishes</option>
+                    <option>The fragrant rice dish:Biryani</option>
+                    <option>The hearty Punjabi Dish:Chole Bhature</option>
+                    <option>The kashmiri Delight:Rogan josh</option>
+                    <option>The Crispy South Indian Delight:Malasa Dosa</option>
+                    <option>The Beloved Street Food:Pav Bhaji</option>
+                    <option>The Crispy Snack:Samosa </option>
+                </select>
+               
+            <h4>SUGGESTIONS</h4>
+            <textarea name="suggestions" placeholder="Extra requirements" ></textarea>
+            <button type="submit" id="button" >send</button>
+        </form>
+    </div>
+  </section>
+</main>
+
+
+<footer >
+    <section class="footer">
+            <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="chefs.html">Chefs</a>
+            <a href="insight.html">insights</a>
+            <a href="contact.html">contact</a>
+           
+        </div>
+        <div class="credit">created by <span> MealMaster</span>
+             | all rights reserved
+             Copyright © MealMaster 2024
+             <br>
+             <div>
+             
+                 Terms of Business
+                 Privacy Policy
+                </div>
+            <br>
+            <div>
+                 mandya | mysore | bangalore
+                 <br>
+                 North South: 0161 971 3075
+                 <br>
+                 Mysore and bangalore: 0121 651 1060
+                 <br>
+                </div>
+                <div>
+                 <a href="mealmaster04@gmail.com">mealmaster04@gmail.com</a>
+                </div>
+            </div>
+    </section>   
+</footer>
+
+<script src="script.js"></script>
+</body>       
+</html>

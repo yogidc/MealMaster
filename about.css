@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section {
+    padding: 50px 0;
+}
+.about-us, .sign-up {
+    text-align: center;
+}
+.about-us {
+    background: #fff;
+}
+.about {
+    background-color: #f1eeee;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.about-us .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row-reverse; 
+}
+.text-content, .image-content {
+    width: 45%;
+}
+.text-content h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.text-content p {
+    margin-bottom: 20px;
+    display: flex;
+    color: black;
+}
+.image-content img {
+    width: 100%;
+    border-radius: 10px;
+}
+.sign-up {
+    background: purple;
+    color: #fff;
+}
+.sign-up-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.sign-up-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.sign-up-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sign-up-form input[type="email"], .sign-up-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.sign-up-form input[type="email"] {
+    width: 300px;
+}
+.sign-up-form button {
+    background: #fff;
+    color: #89095e;
+    padding: 10px 20px;
+    cursor: pointer;
+}
